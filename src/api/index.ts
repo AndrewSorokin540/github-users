@@ -7,9 +7,9 @@ type UsersListItem = {
 
 type User = {
     id: number
-    name: 'string'
-    avatar_url: 'string'
-    email?: 'string'
+    name: string
+    avatar_url: string
+    email?: string
 }
 
 class Api {
